@@ -1,4 +1,4 @@
-
+@charset "utf-8";
 
 .content{
     background-color: aqua;
@@ -8,29 +8,14 @@
     float:left;
     border: solid 1px;
     width: 50%;
-    color: teal;
-    padding-top: 20px;
-    font-size:30px;
+    padding-top: 12px;
 }
 ul {
     list-style-type:none;
 }
 .ocene{
-
-    padding-top: 20px;
+    padding-top: 0px;
     float:left;
     border: solid 1px;
     width: 30%;
-}
-
-input[type="number"] {
-    width: 50px;
-    height: 20px;
-}
-
-.spisakPredmeta
-{
-    padding-left: 20px;
-    padding-bottom: 20px;
-    padding:5px;
 }
