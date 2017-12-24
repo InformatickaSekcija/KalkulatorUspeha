@@ -1,3 +1,5 @@
+
+
 .content{
     background-color: aqua;
     display: inline;
@@ -6,13 +8,29 @@
     float:left;
     border: solid 1px;
     width: 50%;
+    color: teal;
+    padding-top: 20px;
+    font-size:30px;
 }
 ul {
     list-style-type:none;
 }
 .ocene{
+
     padding-top: 20px;
     float:left;
     border: solid 1px;
     width: 30%;
+}
+
+input[type="number"] {
+    width: 50px;
+    height: 20px;
+}
+
+.spisakPredmeta
+{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding:5px;
 }
