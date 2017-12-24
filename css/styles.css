@@ -1,3 +1,18 @@
 .content{
     background-color: aqua;
+    display: inline;
+}
+.nazivi{
+    float:left;
+    border: solid 1px;
+    width: 50%;
+}
+ul {
+    list-style-type:none;
+}
+.ocene{
+    padding-top: 20px;
+    float:left;
+    border: solid 1px;
+    width: 30%;
 }
