@@ -4,18 +4,14 @@
     background-color: aqua;
     display: inline;
 }
-.nazivi{
-    float:left;
-    border: solid 1px;
-    width: 50%;
+.nazivi {
+    float: left;
+    width: 20%;
     padding-top: 12px;
-}
-ul {
-    list-style-type:none;
-}
+font-size: 18px;}
 .ocene{
-    padding-top: 0px;
+padding-bottom:30px;
+    padding-top: 14px;
     float:left;
-    border: solid 1px;
-    width: 30%;
-}
+    float:bottom;
+    width:20%;}
