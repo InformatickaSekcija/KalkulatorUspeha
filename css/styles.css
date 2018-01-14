@@ -7,14 +7,23 @@
 .nazivi {
     float: left;
     width: 20%;
-    padding-top: 1px;
-font-size: 18px;}
-.ocene{
-padding-bottom:30px;
-    padding-top: 20px;
-    float:left;
-    float:bottom;
-    /*width:20%;}*/
-.nazivi .spisakPredmeta li {
+    padding-top: 11px;
+    font-size: 18px;
+}
+.spisakPredmeta li {
     list-style: none;
+    width: 400px;
+    margin: 20px auto;
+    height: 35px;
+}
+.spisakPredmeta li .left{
+    float: left;
+    display: inline-block;
+}
+.spisakPredmeta li .right{
+    float:right;
+    display: inline-block;
+}
+.spisakPredmeta li .right input{
+    padding: 2px 10px;
 }
