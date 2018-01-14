@@ -1,62 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="javascript/kalkulator.js"></script>
     <meta charset="UTF-8">
-    <title>Kalkulator uspeha za drugi razred društvenog smera</title>
-
+    <!--Link ka javascript fajlu-->
+    <script src="javascript/kalkulator.js"></script>
+    <!--Link ka stylesheet fajlu-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Kalkulator uspeha za prvi razred prirodnog smera</title>
 </head>
 <body>
-
-
-
-<p id = "demo"></p>
-
 <div class="content">
     Са леве стране упишите највеће оцене које могу да Вам буду закључене на крају полугодишта, а са десне најмање.
     <br>
     <hr>
     <div class="nazivi">
         <ul class ="spisakPredmeta">
-            <li> Српски језик и књижевност </li>
-            <li> Енглески језик </li>
-            <li> Други страни језик </li>
-            <li> Математика </li>
-            <li> Физичко васпитање </li>
-            <li> Рачунарство и информатика </li>
-            <li> Физика </li>
-            <li> Владање </li>
-            <li> Биологија </li>
-            <li> Хемија </li>
-            <li> Ликовна култура </li>
-            <li> Музичка култура </li>
-            <li> Географија </li>
-            <li> Историја </li>
-            <li> Латински језик </li>
+            <li>
+                <div class="left naziv">Математика</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Српски језик и књижевност</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Енглески језик</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Други страни језик</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Физичко васпитање</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Рачунарство и информатика</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Физика</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Биологија</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Хемија</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Ликовна култура</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Музичка култура</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Географија</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Историја</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Психологија</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Владање</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
         </ul>
-    </div>
-    <div class="ocene">
-        <input type="number" id="srpski" min="1" max="5"><br>
-        <input type="number" id="engleski" min="1" max="5"><br>
-        <input type="number" id="drugiStrani" min="1" max="5"><br>
-        <input type="number" id="matematika" min="1" max="5"><br>
-        <input type="number" id="fizicko" min="1" max="5"><br>
-        <input type="number" id="racunarstvo i informatika" min="1" max="5" ><br>
-        <input type="number" id="fizika" min="1" max="5"><br>
-        <input type="number" id="vladanje" min="1" max="5"><br>
-        <input type="number" id="biologija" min="1" max="5"><br>
-        <input type="number" id="hemija" min="1" max="5"><br>
-        <input type="number" id="likovno" min="1" max="5"><br>
-        <input type="number" id="muzicko" min="1" max="5"><br>
-        <input type="number" id="geografija" min="1" max="5"><br>
-        <input type="number" id="istorija" min="1" max="5"><br>
-        <input type="number" id="latinski" min="1" max="5"><br>
     </div>
 </div>
 
+<br>
 
-<button onclick = "racunanje">Izracunaj</button>
+
 
 </body>
 </html>
