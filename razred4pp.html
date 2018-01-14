@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="javascript/kalkulator.js"></script>
-    <link rel="stylesheet" type="text/css" href="css\styles.css">
     <meta charset="UTF-8">
-    <title>Kalkulator uspeha za cetvrti razred prirodnog smera</title>
+    <!--Link ka javascript fajlu-->
+    <script src="javascript/kalkulator.js"></script>
+    <!--Link ka stylesheet fajlu-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Kalkulator uspeha za cetvrtog razred prirodnog smera</title>
 </head>
 <body>
 <div class="content">
@@ -13,62 +15,86 @@
     <hr>
     <div class="nazivi">
         <ul class ="spisakPredmeta">
-            <li>Српски језик и књижевност</li>
-            <br>
-            <li>Енглески језик</li>
-            <br>
-            <li>Други страни језик</li>
-            <br>
-            <li>Математика</li>
-            <br>
-            <li>Физичко васпитање</li>
-            <br>
-            <li>Рачунарство и информатика</li>
-            <br>
-            <li>Физика</li>
-            <br>
-            <li>Владање</li>
-            <br>
-            <li>Биологија</li>
-            <br>
-            <li>Хемија</li>
-            <br>
-            <li>Филозофија</li>
-            <br>
-            <li>Социологија</li>
-            <br>
-            <li>Устав и права грађана</li>
+            <li>
+                <div class="left naziv">Српски језик и књижевнос</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Енглески језик</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Други страни језик</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Физичко васпитање</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Рачунарство и информатика</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Физика</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Владање</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Биологија</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Хемија</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Филозофија</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Социологија</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Устав и права грађана</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            </li>
         </ul>
     </div>
-    <div class="ocene">
-        <input style="font-size:12pt;height:18px;width:60px;" type="number" id="Srpski" min="1" max="5"><br>
-        <br>
-        <input style="font-size:12pt;height:18px;width:60px;" type="number" id="Engleski" min="1" max="5"><br>
-        <br>
-        <input style="font-size:12pt;height:18px;width:60px;" type="number" id="DrugiStrani" min="1" max="5"><br>
-        <br>
-        <input style="font-size:12pt;height:18px;width:60px;" type="number" id="Matematika" min="1" max="5"><br>
-        <br>
-        <input style="font-size:12pt;height:18px;width:60px;" type="number" id="FizickoVaspitanje" min="1" max="5"><br>
-        <br>
-        <input style="font-size:12pt;height:18px;width:60px;" type="number" id="RacunarstvoiInformatike" min="1" max="5"><br>
-        <br>
-        <input style="font-size:12pt;height:18px;width:60px;" type="number" id="Fizika" min="1" max="5"><br>
-        <br>
-        <input style="font-size:12pt;height:18px;width:60px;" type="number" id="Vladanje" min="1" max="5"><br>
-        <br>
-        <input style="font-size:12pt;height:18px;width:60px;" type="number" id="Biologija" min="1" max="5"><br>
-        <br>
-        <input style="font-size:12pt;height:18px;width:60px;" type="number" id="Hemija" min="1" max="5"><br>
-        <br>
-        <input style="font-size:12pt;height:18px;width:60px;" type="number" id="Filozofija" min="1" max="5"><br>
-        <br>
-        <input style="font-size:12pt;height:18px;width:60px;" type="number" id="Sociologija" min="1" max="5"><br>
-        <br>
-        <input style="font-size:12pt;height:18px;width:60px;" type="number" id="UstaviPravaGrađana" min="1" max="5"><br>
-    </div>
-
 </div>
+
+<br>
+
+
 
 </body>
 </html>
