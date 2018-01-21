@@ -3,7 +3,7 @@ function radi() {
     var Zbir = 0;
     var prazno = false;
     var nedovoljan = false;
-    var nedovoljnanNiz =[];
+    var nedovoljnanIz ='Nedovoljan si iz: ';
     //selektujemo sva input polja
     var  inputs = document.getElementsByTagName('input');
     //selektijemo sve nazive predmeta
@@ -19,6 +19,7 @@ function radi() {
             else if(parseInt(inputs[index].value) <= 1){
                 Zbir+=1;
                 nedovoljan = true;
+                nedovoljnanIz+=nazivi[index].innerHTML + ',';
             }
             //ako gore dva uslova nisu tacna dodajemo unetu ocenu na zbir
             else {
@@ -38,11 +39,12 @@ function radi() {
     }
     //ako ima ocena 1
     else if(nedovoljan) {
+        var string = '';
         Zbir=1;
         alert(Zbir);
-        alert('Nedovoljan/a si! ')
+        alert(nedovoljnanIz)
     }
-    //ako nije nedovoljan i nema praznih polja 
+    //ako nije nedovoljan i nema praznih polja
     else{
         alert(Zbir/inputs.length)
     }
