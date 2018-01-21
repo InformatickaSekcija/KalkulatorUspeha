@@ -12,9 +12,9 @@
 }
 .spisakPredmeta li {
     list-style: none;
-    width: 325px;
-    margin: 20px auto;
-    height: 35px;
+width: 325px;
+margin: 20px auto;
+height: 35px;
 }
 .spisakPredmeta li .left{
     float: left;
