@@ -19,6 +19,7 @@ function radi() {
             else if(parseInt(inputs[index].value) <= 1){
                 Zbir+=1;
                 nedovoljan = true;
+                //pravimo string sa nedovoljnim predmetima
                 nedovoljnanIz+=nazivi[index].innerHTML + ',';
             }
             //ako gore dva uslova nisu tacna dodajemo unetu ocenu na zbir
@@ -42,7 +43,8 @@ function radi() {
         var string = '';
         Zbir=1;
         alert(Zbir);
-        alert(nedovoljnanIz)
+
+        alert(nedovoljnanIz.substring(0, nedovoljnanIz.length -1))
     }
     //ako nije nedovoljan i nema praznih polja
     else{
