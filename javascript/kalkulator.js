@@ -3,7 +3,7 @@ function radi() {
     var Zbir = 0;
     var prazno = false;
     var nedovoljan = false;
-    var nedovoljnanIz ='Nedovoljan si iz: ';
+    var nedovoljnanIz ='Nedovoljan si iz predmeta: ';
     //selektujemo sva input polja
     var  inputs = document.getElementsByTagName('input');
     //selektijemo sve nazive predmeta
@@ -22,7 +22,7 @@ function radi() {
                 Zbir+=1;
                 nedovoljan = true;
                 //pravimo string sa nedovoljnim predmetima
-                nedovoljnanIz+=nazivi[index].innerHTML + ',';
+                nedovoljnanIz+=nazivi[index].innerHTML + ', ';
             }
             //ako gore dva uslova nisu tacna dodajemo unetu ocenu na zbir
             else {
