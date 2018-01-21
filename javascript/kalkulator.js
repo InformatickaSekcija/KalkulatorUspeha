@@ -3,8 +3,11 @@ function radi() {
     var Zbir = 0;
     var prazno = false;
     var nedovoljan = false;
-    //selectujemo sva input polja
+    var nedovoljnanNiz =[];
+    //selektujemo sva input polja
     var  inputs = document.getElementsByTagName('input');
+    //selektijemo sve nazive predmeta
+    var nazivi = document.getElementsByClassName('left naziv');
     // petlja koja prolazi kroz sva input polja
     for (index = 0; index < inputs.length; ++index) {
         //pitamo da li je u input uneta ocena, ako da sledi sledeci kod, ako ne alert('niste uneli...')
@@ -22,9 +25,9 @@ function radi() {
                 Zbir = Zbir + parseInt(inputs[index].value);
             }
         }
-        //ako ocena nije uneta alertujemo u koje polje nije uneta
+        //ako ocena nije uneta alertujemo u koje polje nije uneta - naziv premeta
         else{
-            alert('Niste uneli ocenu u broj:' + index);
+            alert('Niste uneli ocenu za predmet:' + nazivi[index].innerHTML );
             prazno=true;
         }
 
