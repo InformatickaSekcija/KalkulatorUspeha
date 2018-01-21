@@ -14,9 +14,11 @@ function radi() {
         if(parseInt(inputs[index].value)){
             // proveravamo da li je vrednost veca od 5, ako da, dodajemo 5
             if(parseInt(inputs[index].value) > 5){
+                inputs[index].value = 5;
                 Zbir+=5;
             }// proveravamo da li je vrednost manja od 1, ako da, nedovoljan postaje true
             else if(parseInt(inputs[index].value) <= 1){
+                inputs[index].value = 1;
                 Zbir+=1;
                 nedovoljan = true;
                 //pravimo string sa nedovoljnim predmetima
