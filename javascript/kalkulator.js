@@ -39,7 +39,7 @@ function radi() {
         alert(Zbir);
         alert('Nedovoljan/a si! ')
     }
-    //ako nije nedovoljan i nema praznih polja
+    //ako nije nedovoljan i nema praznih polja 
     else{
         alert(Zbir/inputs.length)
     }
