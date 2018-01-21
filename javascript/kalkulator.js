@@ -1,15 +1,14 @@
-var ZbirV = 0;
-var ZbirM = 0;
+function radi() {
+    var index;
+    var ZbirV = 0;
+    var ZbirM = 0;
+    var  inputs = document.getElementsByTagName('input');
 
-function racunanje () {
-for(var i = 0; i < nizV.lenght;i ++)
-{
-    ZbirV += nizV[i];
-}
+    for (index = 0; index < inputs.length; ++index) {
+        ZbirV=ZbirV+parseInt(inputs[index].value);
 
-for(var i = 0; i < nizM.lenght; i++)
-{
-    ZbirM += nizM[i];
-}
+    }
+    alert(ZbirV);
+    alert(ZbirV/inputs.length);
+};
 
-}
