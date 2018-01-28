@@ -50,7 +50,7 @@ function radi() {
     }
     //ako nije nedovoljan i nema praznih polja
     else{
-        alert('Prosek je:'+Zbir/inputs.length)
+        alert('Prosek je:'+(Zbir/inputs.length).toFixed(3));
     }
 };
 
