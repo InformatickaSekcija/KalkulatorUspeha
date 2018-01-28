@@ -44,13 +44,13 @@ function radi() {
     else if(nedovoljan) {
         var string = '';
         Zbir=1;
-        alert(Zbir);
+        alert('Prosek je:'+Zbir);
 
-        alert(nedovoljnanIz.substring(0, nedovoljnanIz.length -1))
+        alert(nedovoljnanIz.substring(0, nedovoljnanIz.length -2))
     }
     //ako nije nedovoljan i nema praznih polja
     else{
-        alert(Zbir/inputs.length)
+        alert('Prosek je:'+Zbir/inputs.length)
     }
 };
 
