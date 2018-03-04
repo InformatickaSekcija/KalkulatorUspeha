@@ -61,6 +61,12 @@ button {
     cursor: pointer;
     transition-duration: 0.5s;
 }
+tr {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
 
 button:hover {
     background-color:  #85b500;
@@ -75,4 +81,20 @@ button:active {
 
 #prosek{
     float: right;
+}
+
+#razredi
+{
+    float: left;
+    width:30%;
+    border:1px;
+
+}
+
+#content
+{
+    float: right;
+    width:70%;
+    border:1px;
+
 }

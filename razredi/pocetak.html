@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+<meta charset=utf-8>
+<head>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Kalkulator Uspeha</title>
+    <script>
+        $(document).ready( function() {
+            $("#1gp").on("click", function() {
+                $("#content").load("razredi/razred1p.html");
+            });
+
+            $("#2gp").on("click", function() {
+                $("#content").load("razredi/razred2p.html");
+            });
+            $("#1gd").on("click", function() {
+                $("#content").load("razredi/razred1g.html");
+            });
+            $("#2gd").on("click", function() {
+                $("#content").load("razredi/razred2d.html");
+            });
+            $("#3gp").on("click", function() {
+                $("#content").load("razredi/razred3p.html");
+            });
+            $("#4gp").on("click", function() {
+                $("#content").load("razredi/razred4p.html");
+            });
+            $("#3gd").on("click", function() {
+                $("#content").load("razredi/razred3d.html");
+            });
+            $("#4gd").on("click", function() {
+                $("#content").load("razredi/razred4d.html");
+            });
+        });
+    </script>
+
+
+</head>
+<body>
+
+       <div id = "razredi" >
+       <ul>
+           <a href="#" id="1gp"><li>Природни 1.раз.</li></a>
+           <a href="#" id="2gp"><li>Природни 2.раз.</li></a>
+           <a href="#" id="1gd"><li>Društveni 1.raz.</li></a>
+           <a href="#" id="2gd"><li>Društveni 2.raz.</li></a>
+           <a href="#" id="3gp"><li>Природни 3.раз.</li></a>
+           <a href="#" id="4gp"><li>Природни 4.раз.</li></a>
+           <a href="#" id="3gd"><li>Društveni 3.raz.</li></a>
+           <a href="#" id="4gd"><li>Društveni 4.raz.</li></a>
+
+       </ul>
+       </div>
+
+       <div id = "content">
+
+
+
+
+       </div>
+
+
+
+</body>
+</html>
