@@ -10,7 +10,7 @@ function radi() {
     var nazivi = document.getElementsByClassName('left naziv');
     // petlja koja prolazi kroz sva input polja
     for (index = 0; index < inputs.length; ++index) {
-        //pitamo da li je u input uneta ocena, ako da sledi sledeci kod, ako ne alert('niste uneli...')
+        //pitamo da li je u input uneta ocena, ako da sledi sledeci kod, ako ne console.log('niste uneli...')
         if(parseInt(inputs[index].value)){
             // proveravamo da li je vrednost veca od 5, ako da, dodajemo 5
             if(parseInt(inputs[index].value) > 5){
@@ -31,7 +31,7 @@ function radi() {
         }
         //ako ocena nije uneta alertujemo u koje polje nije uneta - naziv premeta
         else{
-            alert('Niste uneli ocenu za predmet:' + nazivi[index].innerHTML );
+            console.log('Niste uneli ocenu za predmet:' + nazivi[index].innerHTML );
             prazno=true;
         }
 
@@ -44,13 +44,13 @@ function radi() {
     else if(nedovoljan) {
         var string = '';
         Zbir=1;
-        alert('Prosek je:'+Zbir);
+        console.log('Prosek je:'+Zbir);
 
-        alert(nedovoljnanIz.substring(0, nedovoljnanIz.length -2))
+        console.log(nedovoljnanIz.substring(0, nedovoljnanIz.length -2))
     }
     //ako nije nedovoljan i nema praznih polja
     else{
-        alert('Prosek je:'+(Zbir/inputs.length).toFixed(3));
+        console.log('Prosek je:'+(Zbir/inputs.length).toFixed(3));
     }
-};
+}
 
