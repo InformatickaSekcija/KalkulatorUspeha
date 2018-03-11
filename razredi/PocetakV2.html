@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+<script src="js/jquery-3.2.1.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pocetak</title>
+    <script>
+        $(document).ready( function() {
+            $("#prviprirodni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred1p.html");
+            });
+            $("#prvidrustveni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred1d.html");
+            });
+            $("#drugiprirodni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred2p.html");
+            });
+            $("#drugidrustveni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred2d.html");
+            });
+            $("#treciprirodni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred3p.html");
+            });
+            $("#trecidrustveni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred3d.html");
+            });
+            $("#cetvrtiprirodni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred4p.html");
+            });
+            $("#cetvrtidrustveni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred4d.html");
+            });
+
+        });
+
+
+    </script>
+
+
+</head>
+<body>
+
+<div id = "predmeti" class="w3-sidebar w3-bar-block w3-card">
+    <ul class="w3-ul w3-center w3-hoverable w3-blue ">
+        <a href="#" id="prviprirodni"><li> Српски језик</li></a>
+        <a href="#" id="prvidrustveni"><li>Енглески језик</li></a>
+        <a href="#" id="drugiprirodni"><li>Француски језик</li></a>
+        <a href="#" id="drugidrustveni"><li>Руски језик</li></a>
+        <a href="#" id="treciprirodni"><li>Немачки језик</li></a>
+        <a href="#" id="trecidrustveni"><li>Италијански језик</li></a>
+        <a href="#" id="cetvrtiprirodni"><li>Латински језик</li></a>
+        <a href="#" id="cetvrtidrustveni"><li>Латински језик</li></a>
+    </ul>
+</div>
+
+<div id = "ucitavanje">
+
+
+</div>
+
+
+</body>
+</html>
