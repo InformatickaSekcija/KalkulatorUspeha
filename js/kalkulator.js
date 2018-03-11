@@ -31,7 +31,7 @@ function radi() {
         }
         //ako ocena nije uneta alertujemo u koje polje nije uneta - naziv premeta
         else{
-            console.log('Niste uneli ocenu za predmet:' + nazivi[index].innerHTML );
+            alert('Niste uneli ocenu za predmet:' + nazivi[index].innerHTML );
             prazno=true;
         }
 
