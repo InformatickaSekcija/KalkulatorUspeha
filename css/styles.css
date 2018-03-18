@@ -1,5 +1,5 @@
 @charset "utf-8";
-
+/*kalkulator uspeha*/
 .content{
     background-color: aqua;
     display: inline;
@@ -117,3 +117,5 @@ ul {
     float:right;
 
 }
+
+/*kraj kalkulator uspeha*/
