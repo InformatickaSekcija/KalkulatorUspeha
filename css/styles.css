@@ -102,8 +102,7 @@ button:active {
 #predmeti
 {
     border:1px solid black;
-    width: 30%;
-
+    position:  relative !important;
 }
 
 ul {
