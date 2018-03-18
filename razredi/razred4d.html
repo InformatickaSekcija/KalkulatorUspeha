@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <!--Link ka javascript fajlu-->
-    <script src="js/kalkulator.js"></script>
+    <script src="../js/kalkulator.js"></script>
     <!--Link ka stylesheet fajlu-->
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>Kalkulator uspeha za cetvrtog razred prirodnog smera</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <title>Kalkulator uspeha za četvrti razred društvenog smera</title>
 </head>
 <body>
 <div class="content">
+    <h1 class = "hr">Калкулатор успеха за четврти разред друштвеног смера</h1>
     <br>
     <hr>
     <div class="nazivi">
@@ -19,6 +20,7 @@
                 <div class="right input-ocena">
                     <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
                 </div>
+            </li>
             <li>
                 <div class="left naziv">Енглески језик</div>
                 <div class="right input-ocena">
@@ -50,7 +52,7 @@
                 </div>
             </li>
             <li>
-                <div class="left naziv">Биологија</div>
+                <div class="left naziv">Историја</div>
                 <div class="right input-ocena">
                     <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
                 </div>
@@ -68,13 +70,19 @@
                 </div>
             </li>
             <li>
-                <div class="left naziv">Хемија</div>
+                <div class="left naziv">Рачунарство и информатика</div>
                 <div class="right input-ocena">
                     <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
                 </div>
             </li>
             <li>
-                <div class="left naziv">Рацунарство и информатика</div>
+                <div class="left naziv">Музичка култура</div>
+                <div class="right input-ocena">
+                    <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
+                </div>
+            </li>
+            <li>
+                <div class="left naziv">Ликовна култура</div>
                 <div class="right input-ocena">
                     <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
                 </div>
@@ -91,16 +99,12 @@
                     <input style="font-size:12pt;height:18px;width:60px;" type="number" min="1" max="5"><br>
                 </div>
             </li>
-            </li>
-            <button id="prosek" onclick="radi()">Prosek</button>
-        </ul>
 
+        </ul>
+        <button id="prosek" onclick="radi()">Prosek</button>
     </div>
 </div>
 
 <br>
-
-
-
 </body>
 </html>

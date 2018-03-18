@@ -10,7 +10,7 @@ function radi() {
     var nazivi = document.getElementsByClassName('left naziv');
     // petlja koja prolazi kroz sva input polja
     for (index = 0; index < inputs.length; ++index) {
-        //pitamo da li je u input uneta ocena, ako da sledi sledeci kod, ako ne alert('niste uneli...')
+        //pitamo da li je u input uneta ocena, ako da sledi sledeci kod, ako ne console.log('niste uneli...')
         if(parseInt(inputs[index].value)){
             // proveravamo da li je vrednost veca od 5, ako da, dodajemo 5
             if(parseInt(inputs[index].value) > 5){
@@ -52,5 +52,5 @@ function radi() {
     else{
         alert('Prosek je:'+(Zbir/inputs.length).toFixed(3));
     }
-};
+}
 

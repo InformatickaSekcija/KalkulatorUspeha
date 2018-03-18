@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="js/kalkulator.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pocetak</title>
+    <script>
+        $(document).ready( function() {
+            $("#prviprirodni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred1p.html");
+            });
+            $("#prvidrustveni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred1d.html");
+            });
+            $("#drugiprirodni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred2p.html");
+            });
+            $("#drugidrustveni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred2d.html");
+            });
+            $("#treciprirodni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred3p.html");
+            });
+            $("#trecidrustveni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred3d.html");
+            });
+            $("#cetvrtiprirodni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred4p.html");
+            });
+            $("#cetvrtidrustveni").on("click", function () {
+                $("#ucitavanje").load("razredi/razred4d.html");
+            });
+
+        });
+
+
+    </script>
+
+
+</head>
+<body>
+
+<div id = "predmeti" class="w3-sidebar w3-bar-block w3-card">
+    <ul class="w3-ul w3-center w3-hoverable w3-lime ">
+        <a href="#" id="prviprirodni"><li>Први разред природни</li></a>
+        <a href="#" id="prvidrustveni"><li>Први разред друштвени</li></a>
+        <a href="#" id="drugiprirodni"><li>Други разред природни</li></a>
+        <a href="#" id="drugidrustveni"><li>Други разред друштвени</li></a>
+        <a href="#" id="treciprirodni"><li>Трећи разред природни</li></a>
+        <a href="#" id="trecidrustveni"><li>Трећи разред друштвени</li></a>
+        <a href="#" id="cetvrtiprirodni"><li>Четврти разред природни</li></a>
+        <a href="#" id="cetvrtidrustveni"><li>Четврти разред друштвени</li></a>
+    </ul>
+</div>
+
+<div id = "ucitavanje">
+
+
+</div>
+
+
+</body>
+</html>
