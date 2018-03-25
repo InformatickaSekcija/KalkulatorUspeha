@@ -1,9 +1,48 @@
 @charset "utf-8";
 /*kalkulator uspeha*/
 
+#levi
+{
+    width: 50%;
+    font-size : 20px;
+    float:left;
+}
+
+#desni
+{
+    width: 50%;
+    font-size : 20px;
+    float:right;
+}
 
 ul {
     list-style-type: none;
 }
+
+#levi li:hover
+{
+ background-color: #008080;
+
+}
+
+#desni li:hover
+{
+    background-color: #008080;
+
+}
+
+a:active {
+    color: blue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.hr {
+
+    text-align: center;
+}
+
 
 /*kraj kalkulator uspeha*/
